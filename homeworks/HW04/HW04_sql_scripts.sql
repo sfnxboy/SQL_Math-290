@@ -53,4 +53,7 @@ select sum(tip_amount) from taxi_data td;
 delete from taxi_data where "VendorID" = 2;
 
 /* Exercise 5 */
-VACUUM FULL;
+vacuum full;
+
+/* Exercise 6 */
+truncate table taxi_data;
